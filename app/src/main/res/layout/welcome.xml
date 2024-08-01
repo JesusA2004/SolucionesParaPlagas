@@ -1,0 +1,202 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		welcome
+	 *	@date 		Thursday 01st of August 2024 06:55:20 PM
+	 *	@title 		Pgina de inicio
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/welcome" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_welcome_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__welcome_ek2"
+					android:background="@drawable/_bg__welcome_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="823dp" />
+
+
+				<RelativeLayout
+					android:id="@+id/paginainicio"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="-117dp"
+					android:layout_marginTop="-167dp"
+					android:visibility="visible">
+
+					<ImageView
+						android:id="@+id/marcoimagenp"
+						android:layout_width="634dp"
+						android:layout_height="676dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="marcoimagenp"
+						android:src="@drawable/marcoimagenp" />
+
+					<ImageView
+						android:id="@+id/textsolucionesparaplagas"
+						android:layout_width="383dp"
+						android:layout_height="307dp"
+						android:layout_marginStart="131dp"
+						android:layout_marginTop="305dp"
+						android:contentDescription="textsolucionesparaplagas"
+						android:src="@drawable/textsolucionesparaplagas" />
+
+
+					<RelativeLayout
+						android:id="@+id/button"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="233dp"
+						android:layout_marginTop="782dp">
+
+
+						<RelativeLayout
+							android:id="@+id/state_layer"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp">
+
+							<TextView
+								android:id="@+id/label_text"
+								android:layout_width="97dp"
+								android:layout_height="30dp"
+								android:layout_gravity="center_horizontal|center"
+								android:layout_marginLeft="44.5dp"
+								android:layout_marginTop="13.5dp"
+								android:fontFamily="Roboto"
+								android:gravity="center"
+								android:text="@string/label_text_string"
+								android:textColor="@color/_bg__welcome_ek2_color"
+								android:textSize="14sp" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+					<TextView
+						android:id="@+id/soluciones_para_plagas_urbanas_y_agr_colas"
+						android:layout_width="333dp"
+						android:layout_height="30dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="155dp"
+						android:layout_marginTop="740dp"
+						android:fontFamily="Rounded Mplus 1c"
+						android:gravity="center"
+						android:text="@string/soluciones_para_plagas_urbanas_y_agr_colas_string"
+						android:textColor="@color/soluciones_para_plagas_urbanas_y_agr_colas_color"
+						android:textSize="14sp" />
+
+					<TextView
+						android:id="@+id/__bienvenido_"
+						android:layout_width="271dp"
+						android:layout_height="32dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="191dp"
+						android:layout_marginTop="700dp"
+						android:fontFamily="Sansita"
+						android:gravity="center"
+						android:text="@string/__bienvenido__string"
+						android:textColor="@color/soluciones_para_plagas_urbanas_y_agr_colas_color"
+						android:textSize="24sp" />
+
+					<ImageView
+						android:id="@+id/logotipsinfondo"
+						android:layout_width="223dp"
+						android:layout_height="131dp"
+						android:layout_marginStart="206dp"
+						android:layout_marginTop="338dp"
+						android:contentDescription="logotipsinfondo"
+						android:src="@drawable/logotipsinfondo" />
+
+					<View
+						android:id="@+id/informacion"
+						android:layout_width="430dp"
+						android:layout_height="83dp"
+						android:layout_marginStart="98dp"
+						android:layout_marginTop="917dp"
+						android:background="@drawable/informacion_shape" />
+
+					<TextView
+						android:id="@+id/bajada_a_chapultepec___3__chapultepec__62360_cuernavaca__mor_"
+						android:layout_width="219dp"
+						android:layout_height="27dp"
+						android:layout_marginLeft="170dp"
+						android:layout_marginTop="946dp"
+						android:fontFamily="Meera Inimai"
+						android:text="@string/bajada_a_chapultepec___3__chapultepec__62360_cuernavaca__mor__string"
+						android:textColor="@color/soluciones_para_plagas_urbanas_y_agr_colas_color" />
+
+					<ImageView
+						android:id="@+id/iconodireccion"
+						android:layout_width="39dp"
+						android:layout_height="38dp"
+						android:layout_marginStart="126dp"
+						android:layout_marginTop="931dp"
+						android:contentDescription="iconodireccion"
+						android:src="@drawable/iconodireccion" />
+
+					<ImageView
+						android:id="@+id/iconopaginawebrecortada_1"
+						android:layout_width="95dp"
+						android:layout_height="88dp"
+						android:layout_marginStart="327dp"
+						android:layout_marginTop="904dp"
+						android:contentDescription="iconopaginawebrecortada_1"
+						android:src="@drawable/iconopaginawebrecortada_1" />
+
+					<TextView
+						android:id="@+id/solucionesparaplagas_com"
+						android:layout_width="130dp"
+						android:layout_height="27dp"
+						android:layout_marginLeft="406dp"
+						android:layout_marginTop="947dp"
+						android:fontFamily="Meera Inimai"
+						android:text="@string/solucionesparaplagas_com_string"
+						android:textColor="@color/soluciones_para_plagas_urbanas_y_agr_colas_color" />
+
+					<TextView
+						android:id="@+id/crear_una_cuenta"
+						android:layout_width="113dp"
+						android:layout_height="29.5dp"
+						android:layout_gravity="center_horizontal|center"
+						android:layout_marginLeft="267dp"
+						android:layout_marginTop="836dp"
+						android:fontFamily="Roboto"
+						android:gravity="center"
+						android:text="@string/crear_una_cuenta_string"
+						android:textColor="@color/soluciones_para_plagas_urbanas_y_agr_colas_color"
+						android:textSize="13sp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
