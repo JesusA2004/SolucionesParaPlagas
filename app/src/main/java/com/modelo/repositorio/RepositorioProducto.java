@@ -1,6 +1,8 @@
 package com.modelo.repositorio;
 
-public class RepositorioProducto {
+import com.modelo.entidad.Producto;
+
+public class RepositorioProducto extends Repositorio<Producto>{
 
 
 
